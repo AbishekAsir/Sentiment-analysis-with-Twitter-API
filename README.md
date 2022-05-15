@@ -103,17 +103,21 @@ def get_avg_sentiment(keyword:str)-> int:
 ```
 
 9. Then use input() statement to get input from user and print the output.
+```
+if __name__ == "__main__":
+    print("What world you like")
+    first = input()
+    print("----OR-----")
+    second = input()
+    print("\n")
+    frist_score = get_avg_sentiment(first)
+    second_score = get_avg_sentiment(second)
+    if (frist_score > second_score):
+        print("The world Prefer",first)
+    else :
+        print("The world Prefer",second)
+```
+8. Follow setup instructions [Get the files here](https://github.com/AbishekAsir/Sentiment-analysis-with-Twitter-API/blob/main/sentiment_analysis.py)
 
-5. Follow setup [instructions](Link to file)
-
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
-
-
-
-
-## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
+ 
 
