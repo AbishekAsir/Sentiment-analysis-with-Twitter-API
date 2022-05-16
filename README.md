@@ -6,7 +6,7 @@ This project is a combination of several Libraries in python with the NPL
 #### -- Project Status: [Completed]
 
 ## Project Intro/Objective
- To do Sentiment analysis for the input keyword on Twitter Api 
+ To do Sentiment analysis for the given input (keyword) on Twitter Api 
 
 
 ### Methods Used
