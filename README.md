@@ -20,7 +20,7 @@ This project is a combination of several Libraries in python with the NPL
 
 
 ## Project Description
-The purpose of this project is to get 2 word as input statement as keyword from user and we search the keyword in the twitter api then we clean the data after that we use some python linbarere to do sentiment analysis and get sentiment core and compire them.  
+The purpose of this project is to get 2 word as input statement as keyword from user and we search the keyword in the twitter api then we clean the data after that we use some python library to do sentiment analysis and get sentiment core and compare them.  
 
 ## Getting Started
 
