@@ -1,7 +1,7 @@
 
 # Sentiment-analysis-with-Twitter-API
 
-This project is combination of several Libraries in python with the NPL
+This project is a combination of several Libraries in python with the NPL
 
 #### -- Project Status: [Completed]
 
@@ -20,7 +20,7 @@ This project is combination of several Libraries in python with the NPL
 
 
 ## Project Description
-The purpose of this project is get 2 word as input statement as keyword from user and we search the keyword in the twitter api then we clean the data aftet that we use some python linbarere to do sentiment analysis and get sentiment core and compire them.  
+The purpose of this project is to get 2 word as input statement as keyword from user and we search the keyword in the twitter api then we clean the data after that we use some python linbarere to do sentiment analysis and get sentiment core and compire them.  
 
 ## Getting Started
 
@@ -47,7 +47,7 @@ import statistics
 from typing import List
 ```
 
-4. Use config library go get acces to api key, api key secret, access token and access token secret from [.ini] file. then put it in variable called api
+4. Use config library go get the access to api key, api key secret, access token and access token secret from [.ini] file. then put it in variable called api
 ```
 config = configparser.ConfigParser()
 config.read('apicon.ini')
