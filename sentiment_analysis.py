@@ -60,3 +60,21 @@ if __name__ == "__main__":
         print("The world Prefer",first)
     else :
         print("The world Prefer",second)
+        
+positive_tweet = []
+neutral_tweet = []
+negative_tweet = []
+for tweet in clean_tweet:
+    blob = TextBlob(tweet)
+    sentiment_scores= blob.sentiment.polarity
+    if sentiment_scores > 0:
+        positive_tweet.append(tweet)
+    elif sentiment_scores < 0:
+        negative_tweet.append(tweet)
+    elif sentiment_scores == 0:
+        neutral_tweet.append(tweet)         
+ 
+
+print("Positive tweets percentage: {} %".format(round(100*len(positive_tweet)/len(clean_tweet),2)))
+print("Negative tweets percentage: {} %".format(round(100*len(negative_tweet)/len(clean_tweet),2)))
+print("Neutral tweets percentage: {} %".format(round(100*len(neutral_tweet)/len(clean_tweet),2)))
